@@ -1,7 +1,6 @@
 import React from "react";
 import { TouchableOpacity, Text, StyleSheet } from "react-native";
-
-
+import { IconButtonProps } from "./IconButtons";
 
 export const IconButton = ({ onPress, text }: IconButtonProps) => {
   return (
