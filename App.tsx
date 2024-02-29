@@ -6,6 +6,7 @@ import {
   Text,
   useColorScheme,
 } from "react-native";
+import Config from "react-native-config";
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === "dark";
@@ -31,4 +32,11 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+// Whether the storybook is enabled or not in env
+let AppEntryPoint = App;
+
+if (Config.STORYBOOK_ENABLED === "true") {
+  AppEntryPoint = require("./.storybook").default;
+}
+
+export default AppEntryPoint;

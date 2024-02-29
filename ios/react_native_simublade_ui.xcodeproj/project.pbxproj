@@ -11,8 +11,8 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		4F0BADD46EBD55E5DF1FA397 /* libPods-react_native_simublade_ui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F851C779952FF29579BB1D2B /* libPods-react_native_simublade_ui.a */; };
-		6475C84C2D6A8AEC32A854B3 /* libPods-react_native_simublade_ui-react_native_simublade_uiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4B4DC38349A207FCA3B32B /* libPods-react_native_simublade_ui-react_native_simublade_uiTests.a */; };
+		49EDDDFD913FD413F6E231AE /* libPods-react_native_simublade_ui-react_native_simublade_uiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F09A09DCDD39D835B3A64D1C /* libPods-react_native_simublade_ui-react_native_simublade_uiTests.a */; };
+		5CB95C03E4502F40AB93C59D /* libPods-react_native_simublade_ui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD1EE3EDF212C1A75D37C65 /* libPods-react_native_simublade_ui.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -36,14 +36,14 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = react_native_simublade_ui/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = react_native_simublade_ui/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = react_native_simublade_ui/main.m; sourceTree = "<group>"; };
-		1A11C767EA6300E82C514052 /* Pods-react_native_simublade_ui-react_native_simublade_uiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_simublade_ui-react_native_simublade_uiTests.release.xcconfig"; path = "Target Support Files/Pods-react_native_simublade_ui-react_native_simublade_uiTests/Pods-react_native_simublade_ui-react_native_simublade_uiTests.release.xcconfig"; sourceTree = "<group>"; };
-		2A4B4DC38349A207FCA3B32B /* libPods-react_native_simublade_ui-react_native_simublade_uiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-react_native_simublade_ui-react_native_simublade_uiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CCEABB77834DADD2CCCA0A6 /* Pods-react_native_simublade_ui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_simublade_ui.release.xcconfig"; path = "Target Support Files/Pods-react_native_simublade_ui/Pods-react_native_simublade_ui.release.xcconfig"; sourceTree = "<group>"; };
-		46F55498C7BB2F12BC88C2CC /* Pods-react_native_simublade_ui-react_native_simublade_uiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_simublade_ui-react_native_simublade_uiTests.debug.xcconfig"; path = "Target Support Files/Pods-react_native_simublade_ui-react_native_simublade_uiTests/Pods-react_native_simublade_ui-react_native_simublade_uiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F16A0CC2FB2F5F28918B615 /* Pods-react_native_simublade_ui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_simublade_ui.release.xcconfig"; path = "Target Support Files/Pods-react_native_simublade_ui/Pods-react_native_simublade_ui.release.xcconfig"; sourceTree = "<group>"; };
+		6CD1EE3EDF212C1A75D37C65 /* libPods-react_native_simublade_ui.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-react_native_simublade_ui.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F785319371F5DF3CDC5221A /* Pods-react_native_simublade_ui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_simublade_ui.debug.xcconfig"; path = "Target Support Files/Pods-react_native_simublade_ui/Pods-react_native_simublade_ui.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = react_native_simublade_ui/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5F9193F8BDF132AAB9964AE /* Pods-react_native_simublade_ui-react_native_simublade_uiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_simublade_ui-react_native_simublade_uiTests.debug.xcconfig"; path = "Target Support Files/Pods-react_native_simublade_ui-react_native_simublade_uiTests/Pods-react_native_simublade_ui-react_native_simublade_uiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F851C779952FF29579BB1D2B /* libPods-react_native_simublade_ui.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-react_native_simublade_ui.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCC860296C02F40CAA327EE6 /* Pods-react_native_simublade_ui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_simublade_ui.debug.xcconfig"; path = "Target Support Files/Pods-react_native_simublade_ui/Pods-react_native_simublade_ui.debug.xcconfig"; sourceTree = "<group>"; };
+		F09A09DCDD39D835B3A64D1C /* libPods-react_native_simublade_ui-react_native_simublade_uiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-react_native_simublade_ui-react_native_simublade_uiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A3118DE000A08010829624 /* Pods-react_native_simublade_ui-react_native_simublade_uiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_simublade_ui-react_native_simublade_uiTests.release.xcconfig"; path = "Target Support Files/Pods-react_native_simublade_ui-react_native_simublade_uiTests/Pods-react_native_simublade_ui-react_native_simublade_uiTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6475C84C2D6A8AEC32A854B3 /* libPods-react_native_simublade_ui-react_native_simublade_uiTests.a in Frameworks */,
+				49EDDDFD913FD413F6E231AE /* libPods-react_native_simublade_ui-react_native_simublade_uiTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F0BADD46EBD55E5DF1FA397 /* libPods-react_native_simublade_ui.a in Frameworks */,
+				5CB95C03E4502F40AB93C59D /* libPods-react_native_simublade_ui.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				F851C779952FF29579BB1D2B /* libPods-react_native_simublade_ui.a */,
-				2A4B4DC38349A207FCA3B32B /* libPods-react_native_simublade_ui-react_native_simublade_uiTests.a */,
+				6CD1EE3EDF212C1A75D37C65 /* libPods-react_native_simublade_ui.a */,
+				F09A09DCDD39D835B3A64D1C /* libPods-react_native_simublade_ui-react_native_simublade_uiTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FCC860296C02F40CAA327EE6 /* Pods-react_native_simublade_ui.debug.xcconfig */,
-				2CCEABB77834DADD2CCCA0A6 /* Pods-react_native_simublade_ui.release.xcconfig */,
-				46F55498C7BB2F12BC88C2CC /* Pods-react_native_simublade_ui-react_native_simublade_uiTests.debug.xcconfig */,
-				1A11C767EA6300E82C514052 /* Pods-react_native_simublade_ui-react_native_simublade_uiTests.release.xcconfig */,
+				7F785319371F5DF3CDC5221A /* Pods-react_native_simublade_ui.debug.xcconfig */,
+				4F16A0CC2FB2F5F28918B615 /* Pods-react_native_simublade_ui.release.xcconfig */,
+				D5F9193F8BDF132AAB9964AE /* Pods-react_native_simublade_ui-react_native_simublade_uiTests.debug.xcconfig */,
+				F9A3118DE000A08010829624 /* Pods-react_native_simublade_ui-react_native_simublade_uiTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "react_native_simublade_uiTests" */;
 			buildPhases = (
-				7F27B484DA5A1722691F7232 /* [CP] Check Pods Manifest.lock */,
+				8CC7213AB1ADF1ADE457BB0E /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				7BAA76A750A4E94C63B1F652 /* [CP] Embed Pods Frameworks */,
-				6783DDA4AFB8699C38C7FF3E /* [CP] Copy Pods Resources */,
+				09CA94A0F6A9E96DDD2E5BA5 /* [CP] Embed Pods Frameworks */,
+				94214E94CBEE29862836C769 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,13 +176,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "react_native_simublade_ui" */;
 			buildPhases = (
-				00F37B9EDE8E4CD8BEB4D5B0 /* [CP] Check Pods Manifest.lock */,
+				9B30284F5634FEB8DBADB17D /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				FC293A66E9C2A8740F265696 /* [CP] Embed Pods Frameworks */,
-				B2FB5C03477049ACF917250F /* [CP] Copy Pods Resources */,
+				CFDFA36DDBCB2F18AD285BC8 /* [CP] Embed Pods Frameworks */,
+				17008E132617BA8B79519C00 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,46 +265,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00F37B9EDE8E4CD8BEB4D5B0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-react_native_simublade_ui-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6783DDA4AFB8699C38C7FF3E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-react_native_simublade_ui-react_native_simublade_uiTests/Pods-react_native_simublade_ui-react_native_simublade_uiTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-react_native_simublade_ui-react_native_simublade_uiTests/Pods-react_native_simublade_ui-react_native_simublade_uiTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-react_native_simublade_ui-react_native_simublade_uiTests/Pods-react_native_simublade_ui-react_native_simublade_uiTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7BAA76A750A4E94C63B1F652 /* [CP] Embed Pods Frameworks */ = {
+		09CA94A0F6A9E96DDD2E5BA5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,7 +282,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-react_native_simublade_ui-react_native_simublade_uiTests/Pods-react_native_simublade_ui-react_native_simublade_uiTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7F27B484DA5A1722691F7232 /* [CP] Check Pods Manifest.lock */ = {
+		17008E132617BA8B79519C00 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-react_native_simublade_ui/Pods-react_native_simublade_ui-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-react_native_simublade_ui/Pods-react_native_simublade_ui-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-react_native_simublade_ui/Pods-react_native_simublade_ui-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CC7213AB1ADF1ADE457BB0E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -343,24 +321,46 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B2FB5C03477049ACF917250F /* [CP] Copy Pods Resources */ = {
+		94214E94CBEE29862836C769 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-react_native_simublade_ui/Pods-react_native_simublade_ui-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-react_native_simublade_ui-react_native_simublade_uiTests/Pods-react_native_simublade_ui-react_native_simublade_uiTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-react_native_simublade_ui/Pods-react_native_simublade_ui-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-react_native_simublade_ui-react_native_simublade_uiTests/Pods-react_native_simublade_ui-react_native_simublade_uiTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-react_native_simublade_ui/Pods-react_native_simublade_ui-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-react_native_simublade_ui-react_native_simublade_uiTests/Pods-react_native_simublade_ui-react_native_simublade_uiTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FC293A66E9C2A8740F265696 /* [CP] Embed Pods Frameworks */ = {
+		9B30284F5634FEB8DBADB17D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-react_native_simublade_ui-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFDFA36DDBCB2F18AD285BC8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -410,7 +410,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46F55498C7BB2F12BC88C2CC /* Pods-react_native_simublade_ui-react_native_simublade_uiTests.debug.xcconfig */;
+			baseConfigurationReference = D5F9193F8BDF132AAB9964AE /* Pods-react_native_simublade_ui-react_native_simublade_uiTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -437,7 +437,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A11C767EA6300E82C514052 /* Pods-react_native_simublade_ui-react_native_simublade_uiTests.release.xcconfig */;
+			baseConfigurationReference = F9A3118DE000A08010829624 /* Pods-react_native_simublade_ui-react_native_simublade_uiTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -461,7 +461,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCC860296C02F40CAA327EE6 /* Pods-react_native_simublade_ui.debug.xcconfig */;
+			baseConfigurationReference = 7F785319371F5DF3CDC5221A /* Pods-react_native_simublade_ui.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -488,7 +488,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CCEABB77834DADD2CCCA0A6 /* Pods-react_native_simublade_ui.release.xcconfig */;
+			baseConfigurationReference = 4F16A0CC2FB2F5F28918B615 /* Pods-react_native_simublade_ui.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
