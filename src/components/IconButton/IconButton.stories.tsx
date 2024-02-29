@@ -1,11 +1,11 @@
 import { View } from "react-native";
 import type { Meta, StoryObj } from "@storybook/react";
-import { MyButton } from "./Button";
+import { IconButton } from "./IconButton";
 import React from "react";
 
-const MyButtonMeta: Meta<typeof MyButton> = {
-  title: "MyButton",
-  component: MyButton,
+const IconButtonMeta: Meta<typeof IconButton> = {
+  title: "IconButton",
+  component: IconButton,
   argTypes: {
     onPress: { action: "pressed the button" },
   },
@@ -21,11 +21,11 @@ const MyButtonMeta: Meta<typeof MyButton> = {
   ],
 };
 
-export default MyButtonMeta;
+export default IconButtonMeta;
 
-export const Basic: StoryObj<typeof MyButton> = {};
+export const Basic: StoryObj<typeof IconButton> = {};
 
-export const AnotherExample: StoryObj<typeof MyButton> = {
+export const AnotherExample: StoryObj<typeof IconButton> = {
   args: {
     text: "Another example",
   },
