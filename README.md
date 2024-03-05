@@ -1,5 +1,3 @@
-## This package is inspired by react native paper
-
 ## Step 1: Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
@@ -42,3 +40,5 @@ yarn ios
 
 1. If you want to `enable/disable` storybook make `STORYBOOK_ENABLED = true`/`STORYBOOK_ENABLED = false` or vice-versa in .env file
 2. Then, clean build folder and rebuild the app
+
+## This package is inspired by react native paper
