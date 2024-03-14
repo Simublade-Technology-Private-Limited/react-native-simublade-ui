@@ -53,8 +53,8 @@ const styles = StyleSheet.create({
 // Whether the storybook is enabled or not in env
 let AppEntryPoint = App;
 
-// if (Config.STORYBOOK_ENABLED === "true") {
+if (Config.STORYBOOK_ENABLED === "true") {
   AppEntryPoint = require("./.storybook").default;
-// }
+}
 
 export default AppEntryPoint;

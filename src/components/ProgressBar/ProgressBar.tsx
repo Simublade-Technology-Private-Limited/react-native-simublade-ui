@@ -20,7 +20,7 @@ const ProgressBar = (props: ProgressBarProps) => {
     Animated.timing(currentProgress, {
       toValue: progressValue * 100,
       duration: 1000,
-      easing: Easing.elastic(1.5),
+      easing: Easing.elastic(1.2),
       useNativeDriver: false,
     }).start();
   };
